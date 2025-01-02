@@ -1,0 +1,31 @@
+{
+  "slots": {
+    "1": "1:1",
+    "2": "2:1"
+  },
+  "devices": [
+    {
+      "id": 1,
+      "internalIp": "192.168.100.101",
+      "natPort": "28101",
+      "natSSLPort": "28401",
+      "natRTSPPort": "25501",
+      "type": "Axis.P7216",
+      "maxPort": 4
+    },
+    {
+      "id": 2,
+      "internalIp": "192.168.100.102",
+      "internalPort": "80",
+      "natPort": "28105",
+      "natSSLPort": "28405",
+      "natRTSPPort": "25505",
+      "type": "Axis.P7216",
+      "maxPort": 4
+    }
+  ],
+  "rackHost": "<variable detail>",
+  "rackIp": "<variable detail>",
+  "useProxy": "<variable detail>",
+  "proxyBaseUrl" : "<variable detail>"
+}
