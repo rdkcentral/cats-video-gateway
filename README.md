@@ -50,7 +50,7 @@ you could create a slot mapping that allows for this with the following JSON:
   "devices": [
     {
       "id": 1,
-      "internalIp": "192.168.100.101",
+      "internalIp": "192.168.100.0",
       "natPort": "28101",
       "natSSLPort": "28401",
       "natRTSPPort": "25501",
@@ -59,7 +59,7 @@ you could create a slot mapping that allows for this with the following JSON:
     },
     {
       "id": 2,
-      "internalIp": "192.168.100.102",
+      "internalIp": "192.168.100.0",
       "internalPort": "80",
       "natPort": "28102",
       "natSSLPort": "28402",
@@ -69,7 +69,7 @@ you could create a slot mapping that allows for this with the following JSON:
     },
     {
       "id": 3,
-      "internalIp": "192.168.100.103",
+      "internalIp": "192.168.100.0",
       "internalPort": "80",
       "natPort": "28103",
       "natSSLPort": "28403",
